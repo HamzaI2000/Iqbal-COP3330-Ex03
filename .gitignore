@@ -4,3 +4,17 @@
  */
  
  
+import java.util.*;
+public class Main {
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       // Asking the user to enter quote
+       System.out.print("What is the quote? ");
+       String quote = sc.nextLine();
+       // Asking the user to enter author name
+       System.out.print("Who said it? ");
+       String author = sc.nextLine();
+       // Printing required results
+       System.out.println(author + " says, \""+quote+"\"");
+   }
+}
